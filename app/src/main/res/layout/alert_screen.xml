@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#e71010"
+    android:paddingRight="@dimen/_20sdp"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="@dimen/_250sdp">
+    <ImageView
+        android:id="@+id/iv_main"
+        android:background="@drawable/wall"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp" />
+    <Button
+        android:id="@+id/btn_alert"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_below="@+id/iv_main"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="#fff"
+        android:text="Its Alert Dialogue"
+        android:background="#0d6902"
+        android:layout_centerHorizontal="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp" />
+</RelativeLayout>

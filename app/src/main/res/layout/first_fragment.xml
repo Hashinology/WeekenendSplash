@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#8aedd0"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Spinner
+        android:visibility="gone"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/array_name"
+        />
+
+    <LinearLayout
+
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:id="@+id/btn_alert"
+                    android:textSize="@dimen/_18sdp"
+                    android:textColor="#fff"
+                    android:text="Custome Alert"
+                    android:background="#0a5004"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_50sdp" />
+                <Button
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:id="@+id/btn_default_alert"
+                    android:textSize="@dimen/_18sdp"
+                    android:textColor="#fff"
+                    android:text="Def Alert"
+                    android:background="#0a5004"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_50sdp" />
+                <Button
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:id="@+id/btn_alert_options"
+                    android:textSize="@dimen/_18sdp"
+                    android:textColor="#fff"
+                    android:text="Alert Options"
+                    android:background="#0a5004"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_50sdp" />
+                <Button
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:id="@+id/btn_notification"
+                    android:textSize="@dimen/_18sdp"
+                    android:textColor="#fff"
+                    android:text="Notification"
+                    android:background="#0a5004"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_50sdp" />
+                <Button
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:id="@+id/btn_fragments"
+                    android:textSize="@dimen/_18sdp"
+                    android:textColor="#fff"
+                    android:text="Counter"
+                    android:background="#0a5004"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_50sdp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
